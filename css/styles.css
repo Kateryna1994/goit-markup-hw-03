@@ -1,0 +1,168 @@
+:root{
+    --primery-text-color:#757575;
+    --title-text-color:#000000;
+    --accent-text-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+    --primery-button-color:#212121;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    background-color:var(--primary-white-color);
+    color: var(--primery-text-color);
+    letter-spacing: 0.03em;
+/* хедер */
+}
+.list{
+    list-style: none;
+}
+.logo{
+    color: var(--accent-text-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.studio{
+    color: var(--title-text-color);
+}
+.site-nav .contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.navigation{
+    color: var(--accent-text-color);
+    text-decoration: none;
+}
+.mail{
+    color: var(--accent-text-color);
+    text-decoration: none;
+}
+.site-title{
+    color: var(--primery-button-color);
+    text-decoration: none;
+}
+.tel{
+    color: var(--primery-text-color);
+    text-decoration: none;
+}
+/* main */
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    outline: 2px solid tomato;
+
+}
+.button .primary-button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
+}
+
+.button .button-title{
+    font-family: inherit;
+    color: var(--primery-button-color);
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    align-items: center;
+    text-align: center;
+}
+
+.items{
+    background: #F5F5F5;
+}
+.sitebar{
+    background: #F5F4FA;
+}
+.hero{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+}
+.hero .hero-title{
+    color: var(--title-text-color);
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+.hero-list{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
+}
+.heading{
+    color: var(--primery-button-color) ;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.section-title{
+    color: var(--title-text-color);
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+.item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.caption{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.text{
+    color: var(--primery-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+.futures .title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* футер */
+.footer{
+    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+}
+.logo-title{
+    color: var(--primary-white-color);
+}
+.adress{
+    color: var(--primary-white-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.contacts{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-decoration: none;
+}
