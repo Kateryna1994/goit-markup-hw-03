@@ -14,6 +14,8 @@ body {
 /* хедер */
 }
 .list{
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 .logo{
@@ -53,7 +55,7 @@ body {
 .container{
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
+    width: 1200px;
     outline: 2px solid tomato;
 
 }
@@ -83,14 +85,18 @@ body {
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
+    text-align: center;
 }
 .hero .hero-title{
     color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 30px;
     letter-spacing: 0.06em;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+  
 }
 .hero-list{
     font-family: inherit;
