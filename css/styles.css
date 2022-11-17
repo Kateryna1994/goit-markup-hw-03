@@ -56,6 +56,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
+    background-color: #F5F4FA;
     outline: 2px solid tomato;
 
 }
@@ -73,6 +74,7 @@ body {
     line-height: 1.63;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
 }
 
 .items{
@@ -80,6 +82,8 @@ body {
 }
 .sitebar{
     background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .hero{
     background-color: #2F303A;
@@ -107,12 +111,23 @@ body {
     color: var(--primary-white-color);
     background-color: var(--accent-text-color);
 }
+.sitebar{
+    background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .heading{
     color: var(--primery-button-color) ;
+    margin-top: 0;
+    padding-top: 94px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .section-title{
     color: var(--title-text-color);
@@ -121,6 +136,8 @@ font-size: 16px;
 line-height: 1.19;
 }
 .item{
+    margin-top: 0;
+    padding-bottom: 94px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -139,11 +156,15 @@ line-height: 1.19;
 }
 .futures .title{
     color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
 }
 .desc{
+    margin-top: 0;
+    margin-bottom: 94px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
