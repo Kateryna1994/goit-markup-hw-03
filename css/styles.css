@@ -200,6 +200,12 @@ img{
     width: 1600px;
 }
 .section{
+    width: 1600px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color:#F5F5F5;
+}
+.section-list{
     padding-top: 94px;
     padding-bottom: 94px;
     background-color:#F5F5F5;
