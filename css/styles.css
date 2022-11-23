@@ -195,6 +195,9 @@ img{
 .image-block{
     display: flex;
 }
+.image-block .image-title + .image-title{
+    margin-left: 30px;
+}
 .section-items{
     background-color:#F5F5F5;
     width: 1600px;
