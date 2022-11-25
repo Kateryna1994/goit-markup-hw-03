@@ -7,6 +7,7 @@
 }
 
 body {
+    margin: 0;
     font-family: roboto, sans-serif;
     background-color:var(--primary-white-color);
     color: var(--primery-text-color);
@@ -14,8 +15,10 @@ body {
 /* хедер */
 }
 .header{
-    background-color:#F5F4FA;
     width: 1600px;
+    background-color:#F5F4FA;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 1px solid #eeeeee;
 }
 .list{
@@ -95,9 +98,12 @@ margin-left: 50px;
 }
 img{
     display: block;
+    margin: 0;
 }
 .section-button{
-    width: 1600px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     background-color:#F5F5F5; 
     text-align: center;
 }
@@ -130,26 +136,48 @@ img{
     color: var(--primary-white-color);
     background-color: var(--accent-text-color);
 }
-
-
+.section-title{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.heading{
+    color: var(--primery-button-color) ;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
 .flex-container{
     padding: 0;
     margin: 0;
+    margin-left: calc(-1 * var(--card-set-gap));
+    margin-top: calc(-1 * var(--card-set-gap))
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 .flex-section{
-    flex-basis: calc(100%/3-20px);
+    border: 1px solid #eeeeee;
+}
+.flex-container .flex-section{
+    flex-basis: calc(100%/3);
     margin-right: 30px;
     margin-top: 30px;
-    border: 1px solid #eeeeee;
 }
 .flex-title{
     margin-right: 30px;
     margin-top: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
     border: 1px solid #eeeeee;
 }
+
 .flex-title:last-child{
     margin-right: 0;
 }
@@ -166,17 +194,31 @@ img{
 
 }
 .sidebar{
-    background: #F5F4FA;
     width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 94px;
     padding-bottom: 94px;
+    background: #F5F4FA;
+}
+.container-hero{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero{
-    background-color: #2F303A;
     width: 1600px;
     height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #2F303A;
     text-align: center;
 }
+
 .hero .hero-title{
     color: var(--primary-white-color);
     margin-top: 0;
@@ -197,23 +239,7 @@ img{
     color: var(--primary-white-color);
     background-color: var(--accent-text-color);
 }
-.section-title{
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-}
-.heading{
-    color: var(--primery-button-color) ;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 94px;
-    padding-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-}
+
 .image-block{
     display: flex;
     flex-basis: calc((100% / 3) - 20px);
@@ -221,21 +247,16 @@ img{
 .image-block .image-title + .image-title{
     margin-left: 30px;
 }
-.section-items{
-    background-color:#F5F5F5;
-    width: 1600px;
-}
+
 .section{
     width: 1600px;
-    padding-top: 50px;
-    padding-bottom: 94px;
-    background-color:#F5F5F5;
-}
-.section-list{
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 94px;
     padding-bottom: 94px;
     background-color:#F5F5F5;
 }
+
 .items{
     background: #F5F5F5;
 }
@@ -246,13 +267,7 @@ img{
     font-size: 16px;
     line-height: 1.19;
 }
-.caption{
-    margin: 0;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
+
 .text{
     margin: 0;
     color: var(--primery-text-color);
@@ -289,18 +304,21 @@ img{
 
 /* футер */
 .footer{
-    background: #2F303A;
     width: 1600px;
     height: 252px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2F303A;
+    
 }
 .headline{
-    margin-left: 200px;
+    margin-left: 215px;
 }
 .logo-title{
     color: var(--primary-white-color);
 }
 .adress{
-    margin-left: 200px;
+    margin-left: 215px;
     color: var(--primary-white-color);
     font-weight: 400;
     font-size: 16px;
@@ -308,7 +326,7 @@ img{
     text-decoration: none;
 }
 .contacts-title{
-    margin-left: 200px;
+    margin-left: 215px;
 }
 .contacts{
     color: rgba(255, 255, 255, 0.6);
