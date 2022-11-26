@@ -16,7 +16,7 @@ body {
 }
 .header{
     width: 1600px;
-    background-color:#F5F4FA;
+    background-color:#FFFFF;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid #eeeeee;
@@ -93,35 +93,31 @@ margin-left: 50px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto; 
-    background-color: #F5F4FA;
-
+    background-color: #F5F5F5;
 }
-img{
-    display: block;
-    margin: 0;
-}
-.section-button{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:#F5F5F5; 
-    text-align: center;
-}
-.container-button{
+.container-header{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto; 
-    background-color: #F5F4FA;
-
+    background-color: #FFFFFF;
 }
+img{
+    display: block;
+    margin: 0;
+}
+
 .button{
     display: flex;
     background-color:#F5F5F5;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .button .button-title{
+    margin-top: 94px;
+    
     font-family: inherit;
     color: var(--primery-button-color);
     background-color: #F5F4FA;
@@ -130,7 +126,7 @@ img{
     line-height: 1.63;
     align-items: center;
     text-align: center;
-    margin-top: 94px;
+    
 }
 .button .primary-button{
     color: var(--primary-white-color);
@@ -153,23 +149,19 @@ img{
 }
 .flex-container{
     padding: 0;
-    margin: 0;
-    margin-left: calc(-1 * var(--card-set-gap));
-    margin-top: calc(-1 * var(--card-set-gap))
+    margin-right: -10px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 .flex-section{
+    margin-left: 30px;
+    margin-top: 30px;
     border: 1px solid #eeeeee;
 }
-.flex-container .flex-section{
-    flex-basis: calc(100%/3);
-    margin-right: 30px;
-    margin-top: 30px;
-}
+
 .flex-title{
-    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 30px;
     font-weight: 700;
     font-size: 18px;
@@ -178,16 +170,12 @@ img{
     border: 1px solid #eeeeee;
 }
 
-.flex-title:last-child{
-    margin-right: 0;
+.flex-section:nth-child(3n + 1){
+    margin-left: 0px;
 }
-.flex-section:nth-child(3n){
-    margin-right: 0px;
+.flex-title:first-child{
+    margin-left: 0;
 }
-.flex-section:nth-last-child(-n + 3){
-    margin-bottom: 0;
-}
-
 .flex-contant{
     margin: 0;
     padding: 10px;
