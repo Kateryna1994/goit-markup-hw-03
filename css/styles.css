@@ -242,7 +242,7 @@ img{
 }
 .flex-contant{
     margin: 0;
-    padding: 10px;
+    padding: 24px;
     background-color: var(--primary-white-color);
     text-align: center;
 }
@@ -284,6 +284,7 @@ img{
   
 }
 .hero-list{
+    padding: 10px 24px;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -291,6 +292,8 @@ img{
     text-align: center;
     color: var(--primary-white-color);
     background-color: var(--accent-text-color);
+    border-radius: 4px;
+    border: none;
 }
 
 .image-block{
