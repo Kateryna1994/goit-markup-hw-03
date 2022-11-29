@@ -220,7 +220,7 @@ img{
 }
 .flex-contants{
     margin: 0;
-    padding: 10px;
+    padding: 24px;
     background-color: var(--primary-white-color);
 }
 
@@ -242,7 +242,7 @@ img{
 }
 .flex-contant{
     margin: 0;
-    padding: 24px;
+    padding: 30px;
     background-color: var(--primary-white-color);
     text-align: center;
 }
